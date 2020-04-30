@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.0)
 project (MiVerb)
 
 # paths to our sources
-set(SC_PATH /Users/vb/Documents/coding/GitHub/sc-dev/xx_sc_sources/supercollider)
+# set(SC_PATH /Users/vb/Documents/coding/GitHub/sc-dev/xx_sc_sources/supercollider)
 set(MUTABLE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../eurorack")
 set(STMLIB_PATH ${MUTABLE_PATH}/stmlib)
 set(MI_PATH ${MUTABLE_PATH}/rings)
@@ -47,4 +47,4 @@ add_library(
 )
 
 # create groups in our project
-source_group(TREE ${MUTABLE_PATH} FILES ${STMLIB_SOURCES} ${MI_SOURCES})
+# source_group(TREE ${MUTABLE_PATH} FILES ${STMLIB_SOURCES} ${MI_SOURCES})
