@@ -49,4 +49,3 @@ Use the included `linux-build.sh` script to build for linux. It takes the SuperC
 cd mi-UGens
 ./linux-build.sh PATH/TO/SC/SOURCE/CODE
 ```
-
