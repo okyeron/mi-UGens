@@ -7,29 +7,32 @@ https://github.com/pichenettes/eurorack
 
 **Please note, this is NOT a project by [mutable instruments](https://mutable-instruments.net/) !**
 
-
-
 Volker Böhm, 2020
 https://vboehm.net
 
 
-
-## Building
-
-- cd into the directory of the project you want to build
-- mkdir build
-- cd build
-
-and then:
-
-- cmake -DSC_PATH="path/to/sc-src" -DCMAKE_BUILD_TYPE=RELEASE ..
-- make
-
-or, for creating an Xcode project:
-
-- cmake -DSC_PATH="path/to/sc-src" -G Xcode ..
-- and build with Xcode gui
+##
+Updated for linux compilation 4/30/2020 by Steven Noreyko
 
 
+## Building for linux (Raspberry Pi)
 
-For compiled mac versions see https://vboehm.net/downloads
+```
+# need cmake if you dont already have it
+sudo apt-get install cmake
+
+cd ~/
+git clone https://github.com/v7b1/mi-UGens.git
+git clone https://github.com/supercollider/supercollider.git  
+cd supercollider
+git submodule update --init
+cd ~/mi-UGens
+
+# then cd to directory you want to build
+
+cd MiClouds
+mkdir build && cd build
+cmake -DSC_PATH=~/supercollider ..
+make 
+
+```
