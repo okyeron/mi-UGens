@@ -37,7 +37,7 @@ c) strikes the internal low-pass gate (LPG) (unless the 'level' input is modulat
 d) samples and holds the value of the 'model' input
 
 
-ARGUMENT:: level
+ARGUMENT:: level (0. -- 1.)
 Opens the internal low-pass gate, to simultaneously control the amplitude and brightness of the output signal. Also acts as an accent control when triggering the physical or percussive models.
 
 ARGUMENT:: fm_mod
