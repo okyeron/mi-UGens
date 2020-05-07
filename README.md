@@ -31,8 +31,8 @@ and then:
 - cmake -DSC_PATH="path/to/sc-src" -DCMAKE_BUILD_TYPE=RELEASE ..		
 - make
 
--
--
+
+
 For compiled mac versions see https://vboehm.net/downloads
 
 
@@ -49,4 +49,3 @@ Use the included `linux-build.sh` script to build for linux. It takes the SuperC
 cd mi-UGens
 ./linux-build.sh PATH/TO/SC/SOURCE/CODE
 ```
--
