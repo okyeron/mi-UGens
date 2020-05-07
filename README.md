@@ -33,6 +33,6 @@ cd ~/mi-UGens
 cd MiClouds
 mkdir build && cd build
 cmake -DSC_PATH=~/supercollider ..
-make 
+cmake --build . --config Release
 
 ```
