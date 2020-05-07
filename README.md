@@ -11,8 +11,6 @@ Volker Böhm, 2020
 https://vboehm.net
 
 
-##
-Updated for linux compilation 4/30/2020 by Steven Noreyko
 
 ## Building for mac
 
