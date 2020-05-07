@@ -7,12 +7,12 @@ https://github.com/pichenettes/eurorack
 
 **Please note, this is NOT a project by [mutable instruments](https://mutable-instruments.net/) !**
 
-
-
 Volker Böhm, 2020
 https://vboehm.net
 
 
+##
+Updated for linux compilation 4/30/2020 by Steven Noreyko
 
 ## Building for mac
 
@@ -27,10 +27,6 @@ https://vboehm.net
 - cd build
 
 and then:
-
-- cmake -DSC_PATH="path/to/sc-src" -DCMAKE_BUILD_TYPE=RELEASE ..
-- make
-
 
 
 For compiled mac versions see https://vboehm.net/downloads
